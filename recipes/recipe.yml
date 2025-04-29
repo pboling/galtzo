@@ -25,6 +25,22 @@ modules:
     install:
       - micro
       - starship
+      # Necessary to install Ruby
+      # See: https://github.com/rbenv/ruby-build/wiki#fedora
+      - autoconf
+      - gcc
+      - rust
+      - patch
+      - make
+      - bzip2
+      - openssl-devel
+      - libyaml-devel
+      - libffi-devel
+      - readline-devel
+      - gdbm-devel
+      - ncurses-devel
+      - perl-FindBin # Because of OpenSSL!
+      # Necessary for Quality of Life
       - nordvpn
       - 1password
     remove:
