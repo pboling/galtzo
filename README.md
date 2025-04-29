@@ -2,7 +2,26 @@
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
-After setup, it is recommended you update this README to describe your custom image.
+This image is based on `aurora-dx-hwe:latest`.  A new version / build is released daily.
+
+It layers the following onto `aurora-dc-hwe`:
+
+- NordVPN (also added to systemd) (config taken from [jlandahl/aurora](https://github.com/jlandahl/aurora))
+- 1Password
+- Ruby build dependencies (fedora specific)
+  - autoconf
+  - gcc
+  - rust
+  - patch
+  - make
+  - bzip2
+  - openssl-devel
+  - libyaml-devel
+  - libffi-devel
+  - readline-devel
+  - gdbm-devel
+  - ncurses-devel
+  - perl-FindBin # Because of OpenSSL!
 
 ## Installation
 
