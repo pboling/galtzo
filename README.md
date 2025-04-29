@@ -33,7 +33,7 @@ If you are unfamiliar with Universal Blue Linux, or Atomic Fedora,
 start your journey at [universal-blue.org](https://universal-blue.org/).
 
 If you want to jump in (the water is fine!) start with the [Blue Build Workshop](https://workshop.blue-build.org/),
-a Web tool that will create a repo like this one and build your first image.
+a web tool that will create a repo like this one and build your first image.
 
 This particular configuration layers the following onto `aurora-dx-hwe`:
 
