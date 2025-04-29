@@ -17,7 +17,7 @@ mindmap
               Aurora
                 Aurora-DX
                   Aurora-DX-HWE
-                    Galtzo <=
+                    Galtzo
     Debian
       Ubuntu
     SLS
