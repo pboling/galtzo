@@ -4,7 +4,36 @@ See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup i
 
 This image is based on `aurora-dx-hwe:latest`.  A new version / build is released daily.
 
-It layers the following onto `aurora-dc-hwe`:
+The linux lineage of this spin therefore looks something like this:
+
+```mermaid
+mindmap
+  root((mindmap))
+    Linux
+      Red Hat
+        Fedora Core
+          Fedora
+            Fedora Atomic
+              Universal Blue
+                Bluefin
+                  Aurora
+                    Aurora-DX
+                      Aurora-DX-HWE
+                        Galtzo <=
+      Debian
+      SLS (became Slackware)
+      Jurix (became SuSE)
+      Enoch (became Gentoo)
+      Arch
+```
+
+If you are unfamiliar with Universal Blue Linux, or Atomic Fedora,
+start your journey at [universal-blue.org](https://universal-blue.org/).
+
+If you want to jump in (the water is fine!) start with the [Blue Build Workshop](https://workshop.blue-build.org/),
+a Web tool that will create a repo like this one and build your first image.
+
+This particular configuration layers the following onto `aurora-dx-hwe`:
 
 - NordVPN (also added to systemd) (config taken from [jlandahl/aurora](https://github.com/jlandahl/aurora))
 - 1Password
