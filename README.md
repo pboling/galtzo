@@ -30,9 +30,10 @@ mindmap
 ```
 
 If you are unfamiliar with Universal Blue Linux, or Atomic Fedora,
-start your journey at [universal-blue.org](https://universal-blue.org/).
+start your journey at [universal-blue.org](https://universal-blue.org/), and download an image that suits you.
 
-If you want to jump in (the water is fine!) start with the [Blue Build Workshop](https://workshop.blue-build.org/),
+If you want to jump right into making your own spin (the water is fine!)
+start with the [Blue Build Workshop](https://workshop.blue-build.org/),
 a web tool that will create a repo like this one and build your first image.
 
 This particular configuration layers the following onto `aurora-dx-hwe`:
