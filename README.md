@@ -8,23 +8,25 @@ The linux lineage of this spin therefore looks something like this:
 
 ```mermaid
 mindmap
-  root((mindmap))
-    Linux
-      Red Hat
-        Fedora Core
-          Fedora
-            Fedora Atomic
-              Universal Blue
-                Bluefin
-                  Aurora
-                    Aurora-DX
-                      Aurora-DX-HWE
-                        Galtzo <=
-      Debian
-      SLS (became Slackware)
-      Jurix (became SuSE)
-      Enoch (became Gentoo)
-      Arch
+  root((Linux))
+    Red Hat
+      Fedora CoreOS
+        Fedora Silverblue
+          Universal Blue
+            Bluefin
+              Aurora
+                Aurora-DX
+                  Aurora-DX-HWE
+                    Galtzo <=
+    Debian
+      Ubuntu
+    SLS
+      Slackware
+    Jurix
+      SuSE
+    Enoch
+      Gentoo
+    Arch
 ```
 
 If you are unfamiliar with Universal Blue Linux, or Atomic Fedora,
