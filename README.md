@@ -28,7 +28,7 @@ mindmap
     Enoch
       Gentoo
     Arch
-    kernel--asus
+    kernel -- asus
 ```
 
 If you are unfamiliar with Universal Blue Linux, or Atomic Fedora,
