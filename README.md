@@ -13,7 +13,7 @@ mindmap
       Fedora CoreOS
         Fedora Silverblue
           Universal Blue
-            kernel["Bazzite (kernel)}]
+            kernel["Bazzite (kernel)"]
             Bluefin
               Aurora
                 Aurora-DX
@@ -29,6 +29,7 @@ mindmap
       Gentoo
     Arch
     kernel -- asus
+
 ```
 
 If you are unfamiliar with Universal Blue Linux, or Atomic Fedora,
