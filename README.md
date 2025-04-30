@@ -13,10 +13,11 @@ mindmap
       Fedora CoreOS
         Fedora Silverblue
           Universal Blue
+            kernel["Bazzite (kernel)}]
             Bluefin
               Aurora
                 Aurora-DX
-                  Aurora-DX-HWE
+                  asus[Aurora-DX-HWE]
                     Galtzo
     Debian
       Ubuntu
@@ -27,6 +28,7 @@ mindmap
     Enoch
       Gentoo
     Arch
+    kernel--asus
 ```
 
 If you are unfamiliar with Universal Blue Linux, or Atomic Fedora,
@@ -80,6 +82,18 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 
 The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+
+## Update
+
+Once you have this image installed updating to the latest is a two step process if you want to do it manually.
+
+```bash
+ujust update
+systemctl reboot
+```
+
+Otherwise if you just reboot periodically updates will simply happen transparently in the background.
+Generally there won't be more than one build per day, so a daily reboot will keep your system fresh.
 
 ## Verification
 
