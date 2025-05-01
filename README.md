@@ -1,7 +1,5 @@
 # galtzo &nbsp; [![bluebuild build badge](https://github.com/pboling/galtzo/actions/workflows/build.yml/badge.svg)](https://github.com/pboling/galtzo/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
-
 This image is based on `aurora-dx-hwe:latest`.  A new version / build is released daily.
 
 The linux lineage of this spin therefore looks something like this:
@@ -13,12 +11,13 @@ mindmap
       Fedora CoreOS
         Fedora Silverblue
           Universal Blue
-            kernel["Bazzite (kernel)"]
+            Bazzite
             Bluefin
               Aurora
                 Aurora-DX
-                  asus[Aurora-DX-HWE]
+                  Aurora-DX-HWE
                     Galtzo
+                  
     Debian
       Ubuntu
     SLS
@@ -28,9 +27,8 @@ mindmap
     Enoch
       Gentoo
     Arch
-    kernel -- asus
-
 ```
+NOTE: `HWE` images are tailored for a few hardware platforms, including ASUS laptops.  They also differ from other aurora builds in that they use the bazzite kernel.  The `DX` means the "Developer Experience" flavor.
 
 If you are unfamiliar with Universal Blue Linux, or Atomic Fedora,
 start your journey at [universal-blue.org](https://universal-blue.org/), and download an image that suits you.
@@ -38,6 +36,8 @@ start your journey at [universal-blue.org](https://universal-blue.org/), and dow
 If you want to jump right into making your own spin (the water is fine!)
 start with the [Blue Build Workshop](https://workshop.blue-build.org/),
 a web tool that will create a repo like this one and build your first image.
+
+Or see the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick manual setup instructions.
 
 This particular configuration layers the following onto `aurora-dx-hwe`:
 
