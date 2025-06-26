@@ -31,6 +31,7 @@ modules:
       # See: https://github.com/rbenv/ruby-build/wiki#fedora
       - autoconf
       - gcc
+      - gcc+c++
       - rust
       - patch
       - make
@@ -38,6 +39,7 @@ modules:
       - openssl-devel
       - libyaml-devel
       - libffi-devel
+      - zlib-ng-compat-devel
       - readline-devel
       - gdbm-devel
       - ncurses-devel

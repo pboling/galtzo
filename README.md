@@ -46,6 +46,7 @@ This particular configuration layers the following onto `aurora-dx-hwe`:
 - Ruby build dependencies (fedora specific)
   - autoconf
   - gcc
+  - gcc+c++ (necessary for Ruby < 3.1)
   - rust
   - patch
   - make
@@ -53,6 +54,7 @@ This particular configuration layers the following onto `aurora-dx-hwe`:
   - openssl-devel
   - libyaml-devel
   - libffi-devel
+  - zlib-ng-compat-devel
   - readline-devel
   - gdbm-devel
   - ncurses-devel
