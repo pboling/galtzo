@@ -31,7 +31,7 @@ modules:
       # See: https://github.com/rbenv/ruby-build/wiki#fedora
       - autoconf
       - gcc
-      - gcc+c++
+      - gcc-c++
       - rust
       - patch
       - make

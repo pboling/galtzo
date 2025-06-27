@@ -46,7 +46,7 @@ This particular configuration layers the following onto `aurora-dx-hwe`:
 - Ruby build dependencies (fedora specific)
   - autoconf
   - gcc
-  - gcc+c++ (necessary for Ruby < 3.1)
+  - gcc-c++ (necessary for Ruby < 3.1)
   - rust
   - patch
   - make
