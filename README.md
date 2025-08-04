@@ -1,3 +1,5 @@
+# Archived: Please see the new project at [github.com/pboling/galtzo-os](https://github.com/pboling/galtzo-os)
+
 # galtzo &nbsp; [![bluebuild build badge](https://github.com/pboling/galtzo/actions/workflows/build.yml/badge.svg)](https://github.com/pboling/galtzo/actions/workflows/build.yml)
 
 This image is based on `aurora-dx-hwe:latest`.  A new version / build is released daily.
